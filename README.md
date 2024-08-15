@@ -7,6 +7,7 @@ for usage.
 However, Something went wrong when I ran the code, on the select_gene_type function in the process_input.py file.
 
 Error display:
+
 Traceback (most recent call last):
     File "/local/zhouxinyu/R_Bayesprism/workshop/GSE103224/run_bayesprism.py", line 17, in <module>
     sc_dat_filtered_pc = process_input.select_gene_type(sc_dat_filtered, ["protein_coding"])
