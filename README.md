@@ -16,4 +16,4 @@ Traceback (most recent call last):
 IndexError: Boolean index has wrong length: 31737 instead of 31843
 
 
-May be due to some input_genes in "gencode. V22. Broad. Category. TXT" file may not be able to find, gene_df length is smaller than input_genes length, Finally, input_filtered = input.loc[:, selected_gene_idx.tolist()] displays an error. So I modified the code slightly, as shown in the [run_bayesprism.py](https://github.com/GivingupCoke/BayesPrism-of-python/blob/main/run_bayesprism.py) file. And the data is in the [data](https://github.com/GivingupCoke/BayesPrism-of-python/tree/main/data) file
+May be due to some input_genes in "gencode. V22. Broad. Category. TXT" file may not be able to find, gene_df length is smaller than input_genes length, Finally, input_filtered = input.loc[:, selected_gene_idx.tolist()] displays an error. So I modified the code slightly, as shown in the [run_bayesprism.py](https://github.com/GivingupCoke/BayesPrism-of-python/blob/main/run_bayesprism.py) file. And the data is in the [data](https://github.com/GivingupCoke/BayesPrism-of-python/tree/main/data/test.zip) file
